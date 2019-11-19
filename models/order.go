@@ -22,6 +22,7 @@ import (
 	"gopkg.in/matryer/try.v1"
 )
 
+// Comment by Benko
 // Order represents the order json
 type Order struct {
 	ID           			bson.ObjectId		`json:"id" bson:"_id,omitempty"`
