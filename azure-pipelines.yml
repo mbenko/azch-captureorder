@@ -3,7 +3,7 @@ variables:
   - group: CaptureOrder-variables # Variable Group containing 'mongoHost', 'mongoUser' and the secret 'mongoPassword'
 
   - name: dockerRegistryServiceConnection
-    value: 'aksworkshop-bnk-k8s-workshop-dev-1574169938524' # make sure it matches the name you used in the service connection
+    value: 'k8s-workshop-orders' # make sure it matches the name you used in the service connection
   
   - name: acrEndpoint
     value: 'bnkacreus.azurecr.io' # replace with container registry endpoint
